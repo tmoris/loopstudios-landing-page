@@ -324,22 +324,25 @@ gap: 1em;
 .feature-img__desktop {
   display: none;
       }
-      /* .footer-header {
+
+      @media (min-width: 43.75em){
+
+      
+      .footer-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap; 
   width: 100%;
-      } */
-      /* .brand-detail-links {
+      } 
+   .brand-detail-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 1em;
-      } */
-      /* .list {
-        display: flex;
-      } */
+      } 
+    }
+      
       .attribution { font-size: 11px; text-align: center; }
       .attribution a { color: hsl(228, 45%, 44%); }
