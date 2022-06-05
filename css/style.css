@@ -111,10 +111,9 @@ a, a:hover, a:active {
   cursor: pointer;
 }
 .container {
-  inline-size: 90%;
+  inline-size: 80%;
   max-inline-size: 100vw;
   margin-inline: auto;
-  padding-inline: 1.5em;
 }
 
 .header-wrapper {
@@ -147,7 +146,7 @@ position: relative;
 
 .logo {
 width: clamp(7em, 1em + 10vw, 16.7em);
-margin-inline: 1em;
+margin-inline-start: 2em;
 position: relative;
 z-index: 1000;
 }
@@ -226,7 +225,7 @@ bottom: 0.4em;
 }
 
 .hero {
-margin: 4em 1em;
+margin: 4em 2em;
 max-inline-size: 40em;
 min-inline-size: 15em;
 border: 0.125em solid var(--White);
@@ -239,7 +238,7 @@ border: 0.125em solid var(--White);
 }
 
 .main {
-margin: 4em 0;
+margin-block: 4em;
 overflow: hidden;
 }
 
@@ -304,6 +303,7 @@ text-transform: uppercase;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 .list + .list {
 margin-top: 1em;
@@ -345,6 +345,7 @@ gap: 1em;
           background-color: inherit;
           transform: translateX(0%);  
           padding-inline-start: 1em;
+          margin-inline-end: 2em;
         } 
         .navlist-item + .navlist-item {
           padding-top: 0;
@@ -360,7 +361,7 @@ gap: 1em;
           grid-template-columns: repeat(2, 1fr);
         place-items: center;
         place-content: center;
-          margin-block-end: 8em;
+          margin-block-end: 4em;
         }
 
         .intro-text-setion {
@@ -377,9 +378,11 @@ gap: 1em;
           /* max-inline-size: 52ch; */
         }
         .features {
+          padding-block-start: 4em;
         display: grid;
         grid-auto-flow: column;
         grid-template-rows: auto 1fr;
+        gap: 1em;
         }
         .feature {
 display: grid;
