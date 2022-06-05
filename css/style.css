@@ -295,7 +295,7 @@ text-transform: uppercase;
 }
 
 .footer-header {
-  margin: 2em;
+  margin-block: 2em;
 }
 .footer {
   background-color: var(--Black);
@@ -303,7 +303,7 @@ text-transform: uppercase;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  margin: 2em;
 }
 .list + .list {
 margin-top: 1em;
@@ -374,22 +374,31 @@ gap: 1em;
           padding: 2em;
           box-shadow: var(--shadow-lg);
         }
-        .intro-text-setion:last-child {
-          /* max-inline-size: 52ch; */
-        }
+    
         .features {
-          padding-block-start: 4em;
+        padding-block-start: 4em;
         display: grid;
-        grid-auto-flow: column;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 'feature-header feature-header features-btn features-btn'
+        'feature feature feature feature' ;
         grid-template-rows: auto 1fr;
         gap: 1em;
         }
-        .feature {
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-auto-rows: 1fr;
-gap: 1em;
+        .feature-header {
+          grid-area: feature-header;
         }
+        .features-btn{
+          grid-area: features-btn;
+          margin-inline-start: auto;
+        }
+        .feature {
+          grid-area: feature;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-columns: subgrid;
+          gap: inherit;
+        }
+
         .feature-item >* {
           padding-bottom: 0;
         }
@@ -400,28 +409,42 @@ gap: 1em;
               .feature-img__mobile {
                 display: none;
                     }
-
-
-
-
-
-
-      
-      .footer-header {
+.footer-wrapper {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-areas: 'footer-header footerlist-secondary'
+'footerlist-primary footer-copyright'
+' attribution attribution'
+;
+}
+.footer-header {
+  grid-area: footer-header;
+}
+.footerlist-secondary {
+grid-area: footerlist-secondary;
+margin-top: 2em;
+margin-inline-start: auto;
+}
+.footerlist-primary {
+grid-area: footerlist-primary;
+}   
+.footer-copyright {
+  grid-area: footer-copyright;
+  margin-inline-start: auto;
+}
+.attribution {
+  grid-area: attribution;
+}
+      .list {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap; 
-  width: 100%;
-      } 
-   .brand-detail-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
   gap: 1em;
-      } 
+      }
+
     }
       
-      .attribution { font-size: 11px; text-align: center; }
-      .attribution a { color: hsl(228, 45%, 44%); }
+      .attribution {
+         font-size: 11px; text-align: center; 
+        }
+      .attribution a { 
+        color: hsl(228, 45%, 44%); 
+      }
