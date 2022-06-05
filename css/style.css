@@ -369,6 +369,10 @@ gap: 1em;
           place-content: center;
           margin-block-end: 4em;
           grid-auto-rows: 1fr;
+      
+        }
+        .intro > *{
+          min-inline-size: 23.75em;
         }
         .intro-img-mobile {
 display: none;
@@ -386,6 +390,7 @@ display: none;
           background-color: var(--White);
           padding: 2em;
           box-shadow: var(--shadow-lg);
+          
         }
     
         .features {
