@@ -147,7 +147,7 @@ position: relative;
 }
 
 .logo {
-width: clamp(7em, 0.75em + 10vw, 16.7em);
+width: clamp(7em, 1em + 10vw, 16.7em);
 margin-inline: 1em;
 position: relative;
 z-index: 1000;
@@ -234,7 +234,7 @@ border: 0.125em solid var(--White);
 }
 
 .title {
-  font-size: clamp(1rem, var(--text-4xl) + 2vw, 5rem);
+  font-size: clamp(var(--text-4xl), 1rem + 5vw, 5rem);
   /* letter-spacing: 0.06125em; for desktop*/ 
   padding: 0.25em;
 }
