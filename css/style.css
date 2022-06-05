@@ -355,8 +355,28 @@ gap: 1em;
           height: auto;
           align-items: center;
         }
-        
+        .intro {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          padding-inline: 2em;
+          position: relative;
+        }
 
+        .intro-text-setion {
+          position: absolute;
+          right: 2em;
+          bottom: 0;
+          background-color: var(--White);
+          padding: 2em;
+          box-shadow: var(--shadow-lg);
+        }
+        .intro-text-setion:last-child {
+          max-inline-size: 52ch;
+        }
+        .features {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+        }
 
 
 
