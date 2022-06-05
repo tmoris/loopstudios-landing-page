@@ -117,7 +117,7 @@ a, a:hover, a:active {
   padding-inline: 1.5em;
 }
 
-.header {
+.header-wrapper {
   display: block;
   inline-size: 100%;
   box-shadow: var(--shadow-md);
@@ -143,7 +143,6 @@ flex-wrap: wrap;
 gap: 1em;
 padding: 2em 0;
 position: relative;
-
 }
 
 .logo {
@@ -331,6 +330,10 @@ gap: 1em;
           display: flex;
           justify-content: space-between;
         }
+        .brand-nav {
+          justify-content: flex-start;
+          position: static;
+          }
         .navtoggle {
         display: none;
         }
@@ -339,14 +342,18 @@ gap: 1em;
           width: inherit;
           height: inherit;
           position: static;
-      
           background-color: inherit;
           transform: translateX(0%);  
           padding-inline-start: 1em;
         } 
+        .navlist-item + .navlist-item {
+          padding-top: 0;
+          padding-inline-start: 1em;
+        }
         .navlist {
           flex-direction: row;
           height: auto;
+          align-items: center;
         }
         
 
