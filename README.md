@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/tmoris/loopstudios-landing-page
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://tmoris.github.io/loopstudios-landing-page/
 
 ## My process
 
