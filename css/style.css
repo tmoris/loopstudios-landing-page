@@ -213,7 +213,7 @@ a:active {
 }
 
 .nav-open .hamburger::before {
-  transform: translateX(-0.4em) rotate(90deg);
+  transform: rotate(90deg) translateX(-0.4em);
 }
 
 .nav-open .hamburger::after {
