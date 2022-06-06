@@ -189,7 +189,7 @@ a:active {
   height: 0.2em;
   background-color: var(--White);
   border-radius: 0.25em;
-  transition: transform 250ms cubic-bezier(0.5 0, 0.5, 1);
+ transition: var(--transition);
   z-index: 1000;
 }
 
@@ -504,7 +504,6 @@ a:active {
     grid-area: feature;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-columns: subgrid;
     gap: inherit;
   }
 
