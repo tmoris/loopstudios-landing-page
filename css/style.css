@@ -126,7 +126,9 @@ a:active {
   text-decoration: none;
   cursor: pointer;
 }
-
+.icon-text-sr {
+display: none;
+}
 .container {
   inline-size: 80%;
   max-inline-size: 100vw;
