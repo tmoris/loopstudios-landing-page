@@ -105,6 +105,7 @@ small,
   outline: 0.06125em solid var(--White);
   outline-offset: 0.5em;
   border-radius: var(--br-s);
+  outline-style: dashed;
 }
 .img {
   block-size: auto;
@@ -188,7 +189,7 @@ a:active {
   height: 0.2em;
   background-color: var(--White);
   border-radius: 0.25em;
-  transition: transform var(--transition);
+  transition: transform 250ms cubic-bezier(0.5 0, 0.5, 1);
   z-index: 1000;
 }
 
@@ -240,10 +241,11 @@ a:active {
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  
 }
 
 .navlist-item + .navlist-item {
-  padding-top: 1em;
+  padding-block-start: 2em;
   list-style: none;
 }
 
@@ -255,12 +257,13 @@ a:active {
   cursor: pointer;
   font-size: var(--text-lg);
   transition: var(--transition);
+  margin-inline-start: 2em;
 }
 
 .navlist-link:hover,
 .navlist-link:focus {
   opacity: 0.75;
-  padding-block-end: 1em;
+  padding-block-end: 0.5em;
   border-bottom: 2px solid var(--White);
 }
 
@@ -273,7 +276,6 @@ a:active {
 
 .title {
   font-size: clamp(var(--text-xl), 1rem + 5vw, 5rem);
-  /* letter-spacing: 0.06125em; for desktop*/
   padding: 0.25em;
 }
 
@@ -390,7 +392,7 @@ a:active {
 
 .list-link:hover {
   opacity: 0.75;
-  padding-block-end: 1em;
+  padding-block-end: 0.5em;
   border-bottom: 2px solid var(--White);
 }
 
