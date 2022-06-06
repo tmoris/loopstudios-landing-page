@@ -461,7 +461,7 @@ a:active {
     margin-block-end: 4em;
     grid-auto-rows: 1fr;
     text-align: start;
-    font-size: var(--text-sm);
+    font-size: var(--text-lg);
   }
 
   .intro-text-setion:last-child {
