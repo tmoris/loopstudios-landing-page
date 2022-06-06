@@ -415,7 +415,7 @@ a:active {
 }
 
 @media (min-width: 43.75em) {
-  .header {
+  .header-navigations {
     display: flex;
     justify-content: space-between;
   }
