@@ -207,6 +207,17 @@ a:active {
 .hamburger::after {
   bottom: 0.4em;
 }
+.nav-open .hamburger {
+  transform: rotate(0.635turn);
+}
+
+.nav-open .hamburger::before {
+  transform: rotate(90deg) translateX(-0.4em);
+}
+
+.nav-open .hamburger::after {
+  opacity: 0;
+}
 
 .navbar {
   display: block;
@@ -221,6 +232,9 @@ a:active {
   padding-inline-start: 1em;
 }
 
+.nav-open .navbar {
+  transform: translateX(0);
+}
 .navlist {
   display: flex;
   flex-direction: column;
