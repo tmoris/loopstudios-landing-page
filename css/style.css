@@ -312,7 +312,6 @@ a:active {
 }
 
 .feature-item {
-  background-color: var(--Black);
   position: relative;
   inset: 0;
   transition: all var(--transition);
@@ -474,6 +473,7 @@ a:active {
 
   .intro-img-destop {
     display: block;
+    
   }
 
   .features {
@@ -571,6 +571,9 @@ a:active {
 
   .intro-text-setion:last-child {
     padding: 2em;
+  }
+  .feature-item {
+    background-color: var(--Black);
   }
 
   .navlist-link {
