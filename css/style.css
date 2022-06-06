@@ -273,7 +273,7 @@ i {
 
 .hero {
   margin: 4em 2em;
-  max-inline-size: 40em;
+  max-inline-size: 35em;
   min-inline-size: 15em;
   border: 0.125em solid var(--White);
 }
