@@ -465,6 +465,7 @@ grid-template-areas: 'footer-header footerlist-secondary'
 }
 .footer-header {
 grid-area: footer-header;
+margin-inline-end: auto;
 }
 .footerlist-secondary {
 grid-area: footerlist-secondary;
