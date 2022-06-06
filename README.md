@@ -74,15 +74,11 @@ document.body.classList.toggle('nav-open');
 
 <!-- If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more. -->
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [web.dev](https://web.dev/learn/css/) - This helped me learn mordern CSS techniques. I really liked the content and will use it going forward.
+- [kevinpowell](https://courses.kevinpowell.co/conquering-responsive-layouts) - This is an amazing course which helped me finally understand responsive web design. I'd recommend it to anyone still learning this concept.
 
 
 
@@ -92,8 +88,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Frontend Mentor - [@tmoris](https://www.frontendmentor.io/profile/tmoris)
 - Twitter - [@tibenkanamoris](https://www.twitter.com/tibenkanamoris)
 
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
