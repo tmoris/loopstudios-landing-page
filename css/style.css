@@ -43,7 +43,7 @@ html {
     0 4px 6px -4px rgb(0 0 0 / 0.1);
 
   /* transition */
-  --transition: 150ms  ease-in-out;
+  --transition: 150ms ease-in-out;
   /* border-radius  */
   --br-s: 0.25em;
   --br-m: 0.5em;
