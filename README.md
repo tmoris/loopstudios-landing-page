@@ -72,9 +72,7 @@ document.body.classList.toggle('nav-open');
 
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+<!-- If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more. -->
 
 ### Continued development
 
@@ -95,7 +93,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Frontend Mentor - [@tmoris](https://www.frontendmentor.io/profile/tmoris)
 - Twitter - [@tibenkanamoris](https://www.twitter.com/tibenkanamoris)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
