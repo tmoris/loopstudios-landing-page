@@ -93,7 +93,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@tmoris](https://www.frontendmentor.io/profile/tmoris)
-- Twitter - [@tibenkanamoris](https://www.twitter.com/moris tibenkana)
+- Twitter - [@tibenkanamoris](https://www.twitter.com/tibenkanamoris)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
