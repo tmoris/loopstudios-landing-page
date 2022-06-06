@@ -553,6 +553,7 @@ i {
   .footer-copyright {
     grid-area: footer-copyright;
     margin-inline-start: auto;
+    opacity: 0.75;
   }
 
   .attribution {
