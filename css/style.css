@@ -7,8 +7,9 @@
 }
 
 html {
-  font-size: 93.8%;
-} /*15px*/
+  font-size: 93.8%; /*15px*/
+  scroll-behavior: smooth;
+} 
 
 :root {
   /* colors  */
