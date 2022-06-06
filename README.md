@@ -47,26 +47,29 @@ Users should be able to:
 
 ### What I learned
 
-While working on this project i have learnt a few things which include the following;
-s
-How to access elements in the DOM and use of array function in JS
-How to use CSS grid for styling page layout 
+While working on this project i have learnt
+how to; access elements in the DOM, use array function in JS, use CSS grid for styling page  and create reponsive layouts
 
 
-To see how you can add code snippets, see below:
+For code snippets examples, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "feature-header feature-header features-btn features-btn"
+      "feature feature feature feature";
+    grid-template-rows: auto 1fr;
+    gap: 0.5em;
+  }
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+const navLinks = document.querySelectorAll('.navlist-link');
+navToggle.addEventListener('click', () => {
+document.body.classList.toggle('nav-open');
+});
+
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
