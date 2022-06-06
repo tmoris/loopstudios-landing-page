@@ -48,6 +48,7 @@ Users should be able to:
 ### What I learned
 
 While working on this project i have learnt a few things which include the following;
+s
 How to access elements in the DOM and use of array function in JS
 How to use CSS grid for styling page layout 
 
