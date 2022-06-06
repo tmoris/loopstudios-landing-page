@@ -572,9 +572,6 @@ a:active {
   .intro-text-setion:last-child {
     padding: 2em;
   }
-  .feature-item {
-    background-color: var(--Black);
-  }
 
   .navlist-link {
     font-size: inherit;
