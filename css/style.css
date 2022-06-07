@@ -307,6 +307,7 @@ i {
   font-size: clamp(var(--text-lg), 1rem + 2vw, 2rem);
   max-inline-size: 15ch;
   text-align: center;
+  font-weight: var(--fw-reg);
 
 }
 
@@ -422,7 +423,8 @@ i {
   .header-navigations {
     display: flex;
     justify-content: space-between;
-    padding-block-start: 2em  }
+    padding-block-start: 2em  
+  }
 
   .brand-nav {
     justify-content: flex-start;
@@ -485,7 +487,7 @@ i {
   }
 
   .features {
-    padding-block-start: 4em;
+    margin-block-start: 10em;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
@@ -533,6 +535,7 @@ i {
       "footer-header footerlist-secondary"
       "footerlist-primary footer-copyright"
       " attribution attribution";
+     
   }
 
   .footer-header {
@@ -573,11 +576,11 @@ i {
 
   .intro-text-setion {
     position: relative;
-    top: 4em;
+    top: 10em;
     right: 6em;
     bottom: 0;
     background-color: var(--White);
-    padding: 2em;
+    padding: 4em;
   }
 
   .intro-text-setion:last-child {
