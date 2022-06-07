@@ -255,7 +255,7 @@ i {
 
 .navlist-link {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: var(--fw-light);
   color: var(--White);
   cursor: pointer;
