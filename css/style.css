@@ -422,7 +422,7 @@ i {
   .header-navigations {
     display: flex;
     justify-content: space-between;
-  }
+    padding-block-start: 2em  }
 
   .brand-nav {
     justify-content: flex-start;
