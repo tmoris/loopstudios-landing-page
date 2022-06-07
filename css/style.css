@@ -9,7 +9,7 @@
 html {
   font-size: 93.8%; /*15px*/
   scroll-behavior: smooth;
-} 
+}
 
 :root {
   /* colors  */
@@ -193,7 +193,7 @@ i {
   height: 0.2em;
   background-color: var(--White);
   border-radius: 0.25em;
- transition: var(--transition);
+  transition: var(--transition);
   z-index: 1000;
 }
 
@@ -245,7 +245,6 @@ i {
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  
 }
 
 .navlist-item + .navlist-item {
@@ -308,7 +307,6 @@ i {
   max-inline-size: 15ch;
   text-align: center;
   font-weight: var(--fw-reg);
-
 }
 
 .features {
@@ -328,7 +326,7 @@ i {
   background-blend-mode: multiply;
   opacity: 0.65;
   color: var(--Black);
-  text-shadow:  1px 1px 2em #fff;
+  text-shadow: 1px 1px 2em #fff;
   font-weight: var(--fw-bold);
 }
 
@@ -423,7 +421,7 @@ i {
   .header-navigations {
     display: flex;
     justify-content: space-between;
-    padding-block-start: 2em  
+    padding-block-start: 2em;
   }
 
   .brand-nav {
@@ -483,7 +481,6 @@ i {
     object-fit: cover;
     object-position: center;
     height: 100%;
-    
   }
 
   .features {
@@ -535,7 +532,6 @@ i {
       "footer-header footerlist-secondary"
       "footerlist-primary footer-copyright"
       " attribution attribution";
-     
   }
 
   .footer-header {
