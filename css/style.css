@@ -217,7 +217,7 @@ i {
 }
 
 .nav-open .hamburger::before {
-  transform: 150ms rotate(90deg) translateX(-0.4em) ease-in-out;
+  transform:  rotate(90deg) translateX(-0.4em) ease-in-out;
 }
 
 .nav-open .hamburger::after {
@@ -233,12 +233,12 @@ i {
   right: 0;
   bottom: 0;
   background-color: var(--Black);
-  transform: 150ms translateX(100%) ease-in-out;
+  transform: translateX(100%) ease-in-out;
   padding-inline-start: 1em;
 }
 
 .nav-open .navbar {
-  transform: 150ms translateX(0) ease-in-out;
+  transform: translateX(0) ease-in-out;
 }
 .navlist {
   display: flex;
