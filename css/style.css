@@ -213,7 +213,7 @@ i {
   bottom: 0.4em;
 }
 .nav-open .hamburger {
-  transform: rotate(0.635turn);
+  transform: rotate(0.635turn) ease-in-out;
 }
 
 .nav-open .hamburger::before {
