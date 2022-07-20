@@ -140,6 +140,7 @@ i {
 .header-wrapper {
   display: block;
   inline-size: 100%;
+  block-size: 100vh;
   box-shadow: var(--shadow-md);
   background-image: url(../images/desktop/image-hero.jpg);
   background-position: center;
@@ -166,7 +167,7 @@ i {
 }
 
 .logo {
-  width: clamp(7em, 1em + 10vw, 16.7em);
+  max-inline-size: 6.25em;
   margin-inline-start: 2em;
   position: relative;
   z-index: 1000;
@@ -258,7 +259,6 @@ i {
   font-weight: var(--fw-light);
   color: var(--White);
   cursor: pointer;
-  font-size: var(--text-lg);
   transition: var(--transition);
   margin-inline-start: 2em;
 }
@@ -278,7 +278,6 @@ i {
 }
 
 .title {
-  font-size: clamp(var(--text-xl), 1rem + 5vw, 5rem);
   padding: 0.25em;
 }
 
