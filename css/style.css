@@ -236,6 +236,7 @@ img {
 
 .hero {
   margin-block: auto;
+  padding: 2em;
   height: auto;
   border: 0.125em solid var(--White);
   color: var(--White);
